@@ -14,7 +14,7 @@ shinyUI(fluidPage(
     uiOutput("logo"),
             h3("Take a guess at a few questions about Mola mola."),
                h4("At the end, click the button to check your answers."),
-            radioButtons("q1", "What is another name for the Mola mola??", 
+            radioButtons("q1", "What is another name for the Mola mola?", 
                          list("No answer" = 0.001, "Ocean Sunfish" = 1, "Giant Sunfish" = 0, "Oops" = 0, "Ocean Tuna" = 0),
                          selected = 0.001),
             radioButtons("q2", "What is the heaviest recorded Mola mola?", 
